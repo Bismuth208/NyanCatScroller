@@ -15,3 +15,9 @@ Also require to install Arduino libraries:
 
 
 [To check how the oldy goldy one works, check this link](https://www.youtube.com/watch?v=csOh66p9-Ug "Nyan cat on ssd1306 display")
+
+
+***
+### Lists of known issues:
+ - Rainbow and Nyan body pops in on left part of the screen (Adafruit lib have problems with culling edges of Bitmap images).
+ - Nyan body is transparent and show stars behind it. (Lets pretend what stars actually in front of the Nyan Cat and it's a feature :))
